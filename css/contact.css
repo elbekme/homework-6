@@ -246,3 +246,117 @@ text-align: right;
 color: #FFFFFF;
 
 }
+.backtop {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 99;
+    outline: none;
+    cursor: pointer;
+    padding: 8px;
+    transition: 1s;
+  }
+  
+  .backtop img {
+    width: 100%;
+  }
+
+/* ///////////////////////////////// */
+footer{
+    width: 100%;
+    height:40.2rem;
+    background:#0B0706;
+    margin-top: 9.6rem;
+}
+.footer-box{
+    width: 110rem;
+    height: 40.2rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-box-1{
+    width: 15rem;
+    height: 100%;
+    padding-top: 9.6rem;
+}
+.footer-box-2{
+    width: 40rem;
+    height: 100%;
+    padding-top: 9.6rem;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-box-3{
+    width: 50rem;
+    height: 100%;
+    padding-top: 9.6rem;
+}
+.footer-h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.mail{
+    border: 1px solid rgba(235, 240, 249, 0.3);
+    border-radius: 4px;
+    height: 6.4rem;
+    width: 35rem;
+    padding-left: 2.4rem;
+    margin-top: 3.2rem;
+    background: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(235, 240, 249, 0.3); 
+    opacity: 0.8;
+}
+.footer-btn{
+    background: #FFFFFF;
+    backdrop-filter: blur(40px);
+    border-radius: 4px;
+    width:13.6rem;
+    height: 6.4rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1D2130;
+    border: none;
+    cursor: pointer;
+}
+.footer-link{
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+
+}
+.li-p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+.footer-link{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #FFFFFF;
+    opacity: 0.78;
+    /* padding-top: 2.4rem; */
+}
+/* //////////////////////////////////// */
