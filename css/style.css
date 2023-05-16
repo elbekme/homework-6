@@ -23,7 +23,6 @@ a{
 }
 .container{
     width: 100%;
-    background: #CFCFCF;
 }
 
 header{
@@ -157,8 +156,8 @@ ul{
 
 section{
     width: 100%;
-    background: #CFCFCF;
-
+    background: #FFFFFF;
+    height: 75rem;
 }
 
 .section-main{
@@ -242,8 +241,78 @@ section{
 .section-sponsor{
     width: 110rem;
     margin: 0 auto;
-    height: 8rem;
-    background: red;
     display: block;
     margin-top: 6.4rem;
+    height: 1rem;
+}
+.section-top{
+    width: 110rem;
+    margin: 0 auto;
+
+}
+.top-p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D2130;
+}
+.top-line{
+    border: 1px solid #E5E5E5;
+    height: 1px;
+    width: 90rem;
+}
+.section-bottom{
+    width: 110rem;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3.3rem;
+}
+main{
+    width: 100%;
+    background: #EFF7F2;
+    height: 90rem;
+    padding-top: 9rem; 
+}
+.main-box{
+    width: 110rem;
+    margin:0 auto;
+    height: 70rem;
+    display: flex;
+}
+.main-left{
+    width: 60%;
+}
+.main-right{
+    width: 40%;
+    height: 70rem;
+    padding-top: 6rem;
+}
+.main-left-box{
+    border-left: 1px solid #E5E5E5;
+    height: 44.1rem;
+    width: 50rem;
+    margin-left: 8.6rem;
+}
+.box-pp{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #1D2130;
+    padding-left: 2.4rem; 
+}
+.lorem-p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #525560;
+    margin-left: 5rem;
 }
