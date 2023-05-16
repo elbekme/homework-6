@@ -568,7 +568,7 @@ main{
     height: 43.2rem;
     margin:  0 auto;
 }
-.init-h1{
+.initt-h1{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -607,4 +607,113 @@ main{
     font-size: 16px;
     color: #525560;
     margin-top: .8rem;
+}
+.event-section{
+    width: 100%;
+    height: 29.5rem;
+}
+.event-box{
+    width:110rem;
+    height: 29.5rem;
+    margin: 0 auto;
+}
+.event-boxes{
+    width: 110rem;
+    height: 19.1rem;
+    margin:  0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4.8rem;
+}
+.event-left{
+    width: 53rem;
+    height: 19.1rem;
+    background: #BEF3C0;
+    border-radius: 8px;
+    display: flex;
+    padding-top: 3rem;
+}
+.event-right{
+    width: 53rem;
+    height: 19.1rem;
+    background: #BEF3C0;
+    border-radius: 8px;
+    display: flex;
+    padding-top: 3rem;
+}
+.event-box-1{
+    width: 11.5rem;
+    height: 100%;
+    text-align: center;
+    
+}
+.event-box-2{
+    width:30rem;
+    height: 100%;
+}
+.event-box-3{
+    width: 11.5rem;
+    height: 100%;
+    text-align: center;
+    padding-top: 2.5rem;
+}
+.event-num{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 120%; 
+    font-variant: small-caps;
+    color: #1D2130;
+}
+.event-sep{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px; 
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D2130;
+}
+.next{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;   
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D2130;
+    margin-top: 1rem;
+}
+.event-line{
+    border: 2px solid #1D2130;
+    width: 4.4rem;
+    margin-left: 2.3rem;
+    margin-top: .5rem;
+}
+.event-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    color: #1D2130;
+}
+
+
+
+
+footer{
+    width: 100%;
+    height:40.2rem;
+    border: 1px solid black;
+    margin-top: 9.6rem;
+}
+.footer-box{
+    width: 110rem;
+    height: 40.2rem;
+    margin: 0 auto;
+    border: 1px solid black;
 }
